@@ -1,0 +1,75 @@
+config firewall address
+edit "amazon/52.129.96.0"
+set subnet 52.129.96.0 255.255.240.0
+next
+end
+config firewall address
+edit "amazon/52.219.170.0"
+set subnet 52.219.170.0 255.255.254.0
+next
+end
+config firewall address
+edit "amazon/52.219.168.0"
+set subnet 52.219.168.0 255.255.255.0
+next
+end
+config firewall address
+edit "amazon/3.127.48.128"
+set subnet 3.127.48.128 255.255.255.192
+next
+end
+config firewall address
+edit "amazon/3.123.12.192"
+set subnet 3.123.12.192 255.255.255.192
+next
+end
+config firewall address
+edit "amazon/150.222.230.102"
+set subnet 150.222.230.102 255.255.255.254
+next
+end
+config firewall address
+edit "amazon/3.122.128.0"
+set subnet 3.122.128.0 255.255.254.0
+next
+end
+config firewall address
+edit "amazon/52.93.126.135"
+set subnet 52.93.126.135 255.255.255.255
+next
+end
+config firewall address
+edit "amazon/18.157.71.192"
+set subnet 18.157.71.192 255.255.255.192
+next
+end
+config firewall address
+edit "amazon/18.157.237.192"
+set subnet 18.157.237.192 255.255.255.192
+next
+end
+config firewall address
+edit "amazon/18.157.237.128"
+set subnet 18.157.237.128 255.255.255.192
+next
+end
+config firewall address
+edit "amazon/150.222.129.244"
+set subnet 150.222.129.244 255.255.255.254
+next
+end
+config firewall address
+edit "amazon/15.230.131.2"
+set subnet 15.230.131.2 255.255.255.255
+next
+end
+config firewall address
+edit "amazon/150.222.122.104"
+set subnet 150.222.122.104 255.255.255.254
+next
+end
+config firewall address
+edit "amazon/15.177.68.0"
+set subnet 15.177.68.0 255.255.254.0
+next
+end
